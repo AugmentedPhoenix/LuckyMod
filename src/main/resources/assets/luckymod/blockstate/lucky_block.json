@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "luckymod:block/example_block" }
+  }
+}

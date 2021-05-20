@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "LuckyMod",
+  "version": "${version}",
+  "name": "LuckyMod",
+  "description": "",
+  "authors": [
+    "PhoenixTheDev"
+  ],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/LuckyMod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "site.phoenixthedev.luckymod.client.LuckyModClient"
+    ],
+    "main": [
+      "site.phoenixthedev.luckymod.LuckyMod"
+    ]
+  },
+  "mixins": [
+    "LuckyMod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.16.5"
+  }
+}
